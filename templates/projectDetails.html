@@ -5,31 +5,35 @@
 			font-size: 20px;
 			font-weight: bold;
 		}
-		div{
-			text-align: center;
-		}
+		
 		.box{
 			margin-bottom: 25px;	
 		}
+
+        #cen{
+            text-align: center;
+        }
 	</style>
-	<h2>Project Details Page</h2>
-	<h3><u>Technologies Stack Used</u></h3>
+    <div class ="container my-3 border border-3 border border-white rounded-3 p-3 bg-dark bg-opacity-90 shadow" >
+	<h2 class="text-white ">Project Details Page</h2>
+	<h3 class="text-white ">Technologies Stack Used</h3>
 	<ul>
-	  <li>Python
-	  	<ul>
-  		  <li>Flask</li>
-		  <li>Matplotlib</li>
-		  <li>Plotly</li>
-		  <li>Pandas</li>
+	  <li class="text-white ">Python
+	  	<ul >
+  		  <li class="text-white ">Flask</li>
+		  <li class="text-white ">Matplotlib</li>
+		  <li class="text-white ">Plotly</li>
+		  <li class="text-white ">Pandas</li>
 		</ul>
 	  </li>
-	  <li>Javascript</li>
-	  <li>HTML</li>
-	  <li>CSS</li>
+	  <li class="text-white ">Javascript</li>
+	  <li class="text-white ">HTML</li>
+	  <li class="text-white ">CSS</li>
 	</ul>
-	<div class='box'>Devloped By:
-		<div>Divyanshu Deoli <a href="https://github.com/divyanshudeoli">Github</a></div>
-		<div>Kartik Garg <a href="https://github.com/kartikk-garg">Github</a></div>
+	<div class = "d-flex justify-content-center" id = "cen"><div class='box text-white'>Devloped By:
+		<div class="text-white " id = "cen">Divyanshu Deoli <a href="https://github.com/divyanshudeoli">Github</a></div>
+		<div class="text-white " id = "cen">Kartik Garg <a href="https://github.com/kartikk-garg">Github</a></div>
 	</div>
-	<div class='box'><a href="https://github.com/divyanshudeoli/cdr_analyser">Project Link</a></div>
+    </div>
+</div>
 {% endblock body%}
